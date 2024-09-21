@@ -1,45 +1,7 @@
 import numpy as np
 from typing import Callable
 
-"""
-HUSK DETTE INDEN I AFLEVERER:
-	1. 	Fjern eller udkommenter print statements.
-	2. 	Fjern eller udkommenter funktionskald uden for de definerede funktioner.
-	3. 	Tjek navnene er de samme som der blev givet i Skabelon.py.
-	4. 	Tjek jeres funktioner returnerer det beregnede resultat og at jeres
-		funktioner ikke har 'return None' i sig.
-	5.	Tjek jeres funktioner returnerer den ønskede type.
 
-VIGTIG AT VIDE TIL AFLEVERING:
-	1.	Du må ikke ændre funktions navnene
-	2.	Du må gerne ændre argument navnene men ikke den orden de har
-		2.1	Du må ikke addere flere argumenter ind i funktionerne
-	3.	Du må gerne lave flere funktioner
-		3.1	Hvis du laver flere funktioner så skal de laves i de allerede
-			lavede funktioner. 
-	8.	Du behøver ikke at bruge alle argumenter men det er klogt hvis du gør
-	9.	Du må kun bruge de pakker som er givet i skabelonfilen.
-		9.1	i.e numpy
-
-NOTATION I FUNKTIONERNE:
-	Enhver funktion vi har givet har det som man kalder 'Type Annotation' i sig.
-	Dette er både for funktionens argumenter, men også for dens returnerings 
-	værdi. 
-
-	Dette betyder groft at funktionerne kun kan tage visse typer ind og kun kan
-	spytte en type ud. Lad os kigge på Lambda funktionen:
-
-		def Lambda(x: int | float) -> np.ndarray:
-		
-	Denne notation betyder at funktionen Lambda tager et x som argument hvor det
-	x kun kan være en integer eller en float. Samtidig retunerer Lambda en
-	array af typen np.ndarray (i.e en normal numpy array) 
-
-	Bemærk også at der er en type kaldet 'Callable'. Dette er bare en funktions
-	type. Så her skal du angive en funktion hvis du ønsker at bruge funktionen.
-	Bemærk at funktionsargument navnene er af samme navn som andre funktioner.
-	Dette er højst sandsynligt ikke en fejl ;).
-"""
 
 #Opgave A
 def Lambda(x: int | float) -> np.ndarray:
